@@ -1,3 +1,5 @@
+This is the back end server for Fit-bitter
+
 This folder is to create an express api
 
 ReadMe on how to start this project.
