@@ -17,6 +17,7 @@ app.use(trackRoutes);
 const mongoUri = 'mongodb+srv://Kenlearn:learn5@cluster0-7u60w.mongodb.net/test?retryWrites=true&w=majority';
 mongoose.connect(mongoUri, {
     useNewUrlParser: true,
+    useUnifiedTopology: true,
     useCreateIndex: true
 });
 
@@ -32,6 +33,6 @@ app.get('/', requireAuth, (req, res) => {
     res.send(`Your email: ${req.user.email}`);
 });
 
-app.listen(3000, () => {
-    console.log('Listening on port 3000')
+app.listen(3001, () => {
+    console.log('Listening on port 3001')
 });
