@@ -22,7 +22,7 @@ stores users of the application and their track records.
 2. create package json: mpn init -y
 3. install independencies: npm install bcrypt express jsonwebtoken mongoose nodemon
 
-# Creating A mongo DB instance
+## Creating A mongo DB instance
 
 1. Go to website, and create a new cluster (Standard Login).
 2. Select free teir for yoru cloud data base.
