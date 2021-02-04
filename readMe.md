@@ -2,7 +2,8 @@
 
 This is the back end server for Fit-bitter.
 
-This folder is to create an express api.
+This folder is to create an express api and make calls to a mongodb database that 
+stores users of the application and their track records.
 
 ## Technologies Used
 
